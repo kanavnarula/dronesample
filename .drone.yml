@@ -7,3 +7,8 @@ steps:
   image: alpine
   commands:
   - echo "It worked!!"
+
+- name: test
+  image: golang:1.15
+  commands:
+  - go run sample.go
