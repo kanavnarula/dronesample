@@ -14,7 +14,7 @@ steps:
   - go run sample.go
 # https://docs.drone.io/pipeline/docker/examples/languages/golang/
 
-- name: test
+- name: docker setup
   image: docker/compose
   commands:
   - docker help
