@@ -10,8 +10,10 @@ steps:
 - name: setup go
   image: golang:1.15
   commands:
+  - go version
   - go run sample.go
-  
+# https://docs.drone.io/pipeline/docker/examples/languages/golang/
+
 services:
 - name: database
   image: mysql
