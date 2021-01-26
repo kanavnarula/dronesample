@@ -8,7 +8,7 @@ steps:
   commands:
   - echo "It worked!!"
 
-- name: test
+- name: setup go
   image: golang:1.15
   commands:
   - go run sample.go
