@@ -1,6 +1,5 @@
 name: drone-test
 kind: pipeline
-type: docker
 
 steps:
 - name: test
