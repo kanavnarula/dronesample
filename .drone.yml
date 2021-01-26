@@ -12,3 +12,9 @@ steps:
   image: golang:1.15
   commands:
   - go run sample.go
+  
+services:
+- name: database
+  image: mysql
+  ports:
+  - 3306
