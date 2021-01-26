@@ -14,6 +14,12 @@ steps:
   - go run sample.go
 # https://docs.drone.io/pipeline/docker/examples/languages/golang/
 
+- name: test
+  image: docker/compose
+  commands:
+  - docker help
+#  - docker-compose -f docker-compose-test.yml up -d
+
 services:
 - name: database
   image: mysql
