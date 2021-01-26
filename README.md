@@ -5,4 +5,4 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-dr
 https://www.drone.io/ \
 https://docs.drone.io/ \
 https://docs.drone.io/pipeline/docker/examples/languages/golang/ \
-https://docs.drone.io/pipeline/docker/examples/languages/java/ \
+https://docs.drone.io/pipeline/docker/examples/languages/java/
